@@ -2,7 +2,7 @@
   "crawlers": [
     {
       "key": "arxiv-articles",
-      "project": "arxiv",
+      "project": "example-arxiv",
       "status": "ENABLED",
       "description": "Parses the first page of Arxiv and create contents",
       "runnable": true,
@@ -24,7 +24,7 @@
   "prompts": [
     {
       "key": "arxiv-summarize-pdf",
-      "project": "arxiv",
+      "project": "example-arxiv",
       "status": "ENABLED",
       "description": "Creates a summary of a PDF",
       "runnable": false,
@@ -77,7 +77,7 @@
   "triggers": [
     {
       "key": "arxiv-trigger",
-      "project": "arxiv",
+      "project": "example-arxiv",
       "status": "ENABLED",
       "description": "Starts the process of reading the first page of arxiv, summarizing the papers and create a downloadable html report",
       "runnable": true,
@@ -118,7 +118,7 @@
   "scripts": [
     {
       "key": "arxiv-generate-report",
-      "project": "arxiv",
+      "project": "example-arxiv",
       "status": "ENABLED",
       "description": "Generates a report in HTML format of the latest papers",
       "runnable": true,
@@ -134,7 +134,7 @@
     },
     {
       "key": "arxiv-load-pdf",
-      "project": "arxiv",
+      "project": "example-arxiv",
       "status": "ENABLED",
       "description": "Load the paper's PDF, stores its content and creates the prompt tasks.",
       "runnable": false,
@@ -152,7 +152,7 @@
   "templates": [
     {
       "key": "arxiv-template-report",
-      "project": "arxiv",
+      "project": "example-arxiv",
       "status": "ENABLED",
       "description": "Template for the summary report",
       "runnable": false,
