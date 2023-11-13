@@ -1,0 +1,8 @@
+**/target/
+**/.idea/
+**/.vscode/
+**/*.iml
+**/ObjectStore/
+**/*.~lock*
+**/.openai.txt
+idea-modules/
